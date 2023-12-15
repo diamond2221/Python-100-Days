@@ -1,0 +1,20 @@
+tap "homebrew/bundle"
+tap "homebrew/services"
+brew "boost"
+brew "cocoapods", link: false
+brew "folly"
+brew "edencommon"
+brew "fizz"
+brew "wangle"
+brew "fb303"
+brew "fbthrift"
+brew "git"
+brew "jq"
+brew "libxml2"
+brew "libxslt"
+brew "mysql", restart_service: true
+brew "nginx"
+brew "nvm"
+brew "python@3.11"
+brew "redis", restart_service: true
+brew "watchman"

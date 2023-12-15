@@ -1,0 +1,114 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "3f43dfca496433f364bc1c70711c581b0e804dec"
+      }
+    },
+    "brew": {
+      "python@3.11": {
+        "version": "3.11.6_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.arm64_sonoma.bottle.tar.gz",
+              "sha256": "bd293c85ad28d5dbab53fabb9c0c5e6d6e5b5ef1b4371858bd89bb0040f0c55a"
+            },
+            "arm64_ventura": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.arm64_ventura.bottle.tar.gz",
+              "sha256": "016f01b91864f3cb1d49c4c29a00be97b0a63e20137d3dd9f58c153543698f36"
+            },
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "f5f096f3ffbb8c75873a8b172e5cfa9e412c6374f0f5124a3bad6557b96c24ec"
+            },
+            "sonoma": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.sonoma.bottle.tar.gz",
+              "sha256": "da1954c946eabed4050570600888f0771383ccf46cdfea36c1e67f0b318302c6"
+            },
+            "ventura": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.ventura.bottle.tar.gz",
+              "sha256": "27074dfc3825be115f650430a005de63dbb239c284dd1bc85751f9b57d436ee1"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.monterey.bottle.tar.gz",
+              "sha256": "c7407b1789917854565df3df7319af7e24425485d190ec97bc634215f96a453d"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python%403.11-3.11.6_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "a64185695607db888898e2041aec2a20be10e4d04c47e02438f2167256693d00"
+            }
+          }
+        }
+      },
+      "python-tk@3.11": {
+        "version": "3.11.6",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.arm64_sonoma.bottle.tar.gz",
+              "sha256": "82f8a3f731795819f9c18c2330f5abc42611733ad35b2a7db811636bd92c6e22"
+            },
+            "arm64_ventura": {
+              "cellar": ":any",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.arm64_ventura.bottle.tar.gz",
+              "sha256": "6ea2f81c2e150349fc5951e70f49110aeee7329c0b2801790b4542474f2bfc0e"
+            },
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.arm64_monterey.bottle.tar.gz",
+              "sha256": "71f92b872e09325c0dbe692b3dc96ccca0d2992775a29a03089340e9f58ee982"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.sonoma.bottle.tar.gz",
+              "sha256": "802cd4898d8d6d1ca96a627f2868f87989a31e7436023ca8d4e26a583bda04f3"
+            },
+            "ventura": {
+              "cellar": ":any",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.ventura.bottle.tar.gz",
+              "sha256": "294982cae5133b52513efbe6d1850a74a1e67eec4db1f48c6dbfffee7c2e58f4"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.monterey.bottle.tar.gz",
+              "sha256": "8a2216212d2c38041482d43719ccda808b0be37d43d43576cb541a6e44705c41"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.aliyun.com/homebrew/homebrew-bottles/python-tk%403.11-3.11.6.x86_64_linux.bottle.tar.gz",
+              "sha256": "28819314ceecc86581d697024b0e5559c8fa8dede8d7c7dda24099128ba64298"
+            }
+          }
+        },
+        "options": {
+          "link": false
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "ventura": {
+        "HOMEBREW_VERSION": "4.1.25",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "14.3.0.22.14.1",
+        "Xcode": "15.0.1",
+        "macOS": "13.5"
+      }
+    }
+  }
+}
